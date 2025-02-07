@@ -1,6 +1,6 @@
 # Gruvbase
 WIP!! <br>
-A minecraft client "base".
+A minecraft client base.
 ## Usage
 If you want to disable the custom logger, remove `ApiMain.init()` from the code.<br>
 [API docs](api.md)
