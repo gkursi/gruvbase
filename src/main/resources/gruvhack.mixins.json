@@ -1,0 +1,28 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "xyz.qweru.gruvhack.mixin.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ClientConnectionMixin",
+    "CommandDispatcherMixin",
+    "EntityMixin",
+    "PlayerInteractEntityC2SPacketMixin",
+    "UpdateSelectedSlotC2SPacketMixin"
+  ],
+  "client": [
+    "ChatHudMixin",
+    "ChatInputSuggestorMixin",
+    "ChatScreenMixin",
+    "ClientPlayerEntityMixin",
+    "ClientPlayerInteractionManagerMixin",
+    "InGameHudMixin",
+    "KeyboardMixin",
+    "MinecraftClientMixin",
+    "SessionMixin",
+    "WorldRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

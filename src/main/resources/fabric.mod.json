@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "gruvhack",
+  "version": "${version}",
+  "name": "gruvhack",
+  "description": "gruvhack on top!!",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/gruvhack/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "xyz.qweru.gruvhack.Gruvhack"
+    ]
+  },
+  "mixins": [
+    "gruvhack.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
